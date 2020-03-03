@@ -11,4 +11,18 @@
                 <tr><td>VEGETA</td><td>SASKE</td><td>GENOS</td></tr>
             </table>
         </body>
-    </html>
+</html>
+
+<html>
+<head>
+<style>
+    body{
+        color: blue;
+        background-color:#FFFFFF;
+    }
+</style>
+</head>
+<body>
+Olá mundo!
+</body>
+</html>
