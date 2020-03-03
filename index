@@ -2,9 +2,58 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>LINKS</title>
+        <title>Formulario</title>
     </head>
     <body>
-        <a href="pagina 2.html">link da pagina 2</a>
+        <a href="pagina 2.html">LINK PAG2</a>
+
+        <form action="processa.php" method="post">
+
+            <label>text</label>
+            <input type="text" name="TEXTO1" placeholder="SALVE MAN">
+            <br>
+           
+            <label>password</label>
+            <input type="password" name="senha">
+            <br>
+           
+            <label>oculto</label>
+            <input type="hidden" name="info_oculta" value="OCULTO">
+            <br>
+           
+            <label>select</label>
+            <select name="selecao">
+                <option value="1">opcao1</option>
+                <option value="2">opcao2</option>
+            </select>
+            <br>
+            
+            <label>radio</label><br>
+            <input type="radio" name="radio 1" value="1">valor 1 <br>
+            <input type="radio" name="radio 1" value="2"> valor 2
+            <br>
+
+            <label>checkbox</label><br>
+            <input type="checkbox" name="ck1" value="1" checked>valor 1<br>
+            <input type="checkbox" name="ck1" value="2">valor 2<br>
+            <input type="checkbox" name="ck1" value="3">valor 3<br>
+            <br>
+
+            <input type="submit" value="Enviar" name="submit">
+
+        </form>
     </body>
+    <head>
+        <title>COres</title>
+    </head>
+    <style>
+        body{background-color: gold;
+            color: red;}
+    </style>
+    <body>
+        <p>SALVE MAN</p>
+    </body>
+
+
 <html>
+
